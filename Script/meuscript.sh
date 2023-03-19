@@ -25,7 +25,7 @@ wget url https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
 
 echo "Instalação do flatpak e aplicações"
 
-apt install flatpak -y
+sudo apt install flatpak -y
 flatpak update
 flatpak upgrade -y 
 
