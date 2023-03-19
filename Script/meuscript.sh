@@ -4,6 +4,8 @@ echo "Iniciando configurações..."
 
 cd /home/pcdroid
 mkdir scripts
+sudo apt update
+sudo apt upgrade -y 
 
 echo "Iniciando instalções de softwares e aplicações "
 
